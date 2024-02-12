@@ -1,0 +1,49 @@
+.content{
+    display: block;
+    width: 1000px;
+    margin: auto;
+    background: #00041f;
+    padding: 20px;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+.music{
+	display: inline-block;
+	width: 300px;
+	position: absolute;
+	top: 15%;
+	left: 58%;
+
+}
+audio{
+	padding: 20px
+}
+video {
+	position: fixed;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+body{
+	margin: 0
+}
+.music2{
+	display: inline-block;
+	width: 300px;
+	position: absolute;
+	top: 70%;
+	left: 58%;
+}
+.music3{
+	display: inline-block;
+	width: 300px;
+	position: absolute;
+	top: 125%;
+	left: 58%;
+}
